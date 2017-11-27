@@ -1,2 +1,1 @@
-# gb-httpd
-Apache Web Server Docker image
+# Apache Web Server Docker image
