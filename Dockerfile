@@ -1,4 +1,4 @@
-FROM centos:7.4.1708
+FROM centos:7
 LABEL maintainer="GiaBar <giabar@giabar.com>"
 ENV APACHE_LOG_DIR=/var/log/httpd
 RUN yum clean all &&\
