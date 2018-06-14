@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.5.1804
 LABEL maintainer="GiaBar <giabar@giabar.com>"
 ENV APACHE_LOG_DIR=/var/log/httpd
 RUN yum clean all &&\
@@ -15,5 +15,6 @@ RUN yum clean all &&\
     rm -rf /var/cache/yum &&\
     ln -sfT /dev/stderr "$APACHE_LOG_DIR/error_log" &&\
     ln -sfT /dev/stdout "$APACHE_LOG_DIR/access_log"
+VOLUME ["/var/www/html"]
 EXPOSE 80 443
 CMD ["httpd","-DFOREGROUND"]
