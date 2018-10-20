@@ -3,9 +3,10 @@
 > Docker image based on CentOS 7.5
 
 ## Try online
+
 You can try that online! Click the below button:
-[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/giab
-ar/gb-httpd/master/docker-compose.yml)
+
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/giabar/gb-httpd/master/docker-compose.yml)
 
 
 ## Quick start:
