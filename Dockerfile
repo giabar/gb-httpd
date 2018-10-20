@@ -13,7 +13,7 @@ RUN yum clean all &&\
     yum clean all &&\
     rm -rf /var/tmp/ &&\
     rm -rf /var/cache/yum &&\
-    rm -rf /tmp/*
+    rm -rf /tmp/* &&\
     ln -sfT /dev/stderr "$APACHE_LOG_DIR/error_log" &&\
     ln -sfT /dev/stdout "$APACHE_LOG_DIR/access_log"
 VOLUME ["/var/www/html"]
