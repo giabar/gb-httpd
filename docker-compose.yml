@@ -2,7 +2,7 @@ version: '3'
 services:
 
   websrv:
-    image: giabar/gb-httpd
+    image: giabar/gb-httpd-centos
     ports:
       - 80:80
     volumes:
