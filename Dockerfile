@@ -1,5 +1,5 @@
 FROM centos:7.5.1804
-LABEL maintainer="GiaBar <giabar@giabar.com>"
+LABEL maintainer="giabar@giabar.com"
 ENV APACHE_LOG_DIR=/var/log/httpd
 RUN yum clean all &&\
     rm -rf /var/tmp/ &&\
